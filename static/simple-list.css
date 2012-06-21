@@ -1,0 +1,37 @@
+html {
+    background: #333;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    width: 500px;
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5); /* FF3.5+ */
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5); /* Saf3+, Chrome */
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5); /* Standard. Opera 10.5, IE9 */
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+#container {
+    padding: 1px 0;
+}
+
+#items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    background: #ff3377;
+    color: #fff;
+    font: bold 17px/20px "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+.item .title {
+    display: block;
+    padding: 15px 20px;
+}
